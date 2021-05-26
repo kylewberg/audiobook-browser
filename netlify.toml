@@ -16,11 +16,11 @@
   command = "npm run build"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/api/*"
+  to = "https://librivox.org/api/feed/:splat"
   status = 200
 
 [[redirects]]
-  from = "/api/*"
-  to = "https://librivox.org/api/feed/:splat"
+  from = "/*"
+  to = "/index.html"
   status = 200

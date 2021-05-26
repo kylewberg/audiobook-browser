@@ -1,4 +1,6 @@
-# audiobook-browser
+# Audiobook Browser
+
+A simple Vue.js app to browse the [LibriVox catalog](https://librivox.org/) using their [free api](https://librivox.org/api/info).
 
 ## Project setup
 ```
